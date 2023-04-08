@@ -75,8 +75,8 @@ const DnDFlow = ({ data }) => {
 
     return (
         <div className="dndflow">
-            <Sidebar />
             <ReactFlowProvider>
+                <Sidebar />
                 <div className="reactflow-wrapper" ref={reactFlowWrapper}>
                     <ReactFlow
                         nodes={nodes}
