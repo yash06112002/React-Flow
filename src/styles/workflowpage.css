@@ -1,0 +1,29 @@
+*{
+    font-size: 20px;
+}
+.body{
+    margin: 0;
+}
+.heading{
+    height: 10vh;
+    width: 100vw;
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.react-flow{
+    height: 80vh;
+    width: 100vw;
+    border: 1px solid black;
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+.modules{
+    width: 60vw;
+}

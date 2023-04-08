@@ -1,0 +1,32 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100vw;
+}
+table{
+    width: 600px;
+    margin: auto;
+}
+a{
+    color: black;
+}
+.odd-row{
+    height: 50px;
+    background-color: rgb(202, 237, 238);
+}
+.even-row{
+    height: 50px;
+    background-color: rgb(149, 185, 236);
+}
+.first-row{
+    height: 50px;
+    background-color: rgb(44, 109, 207);
+    color: white;
+    font-weight: 600;
+}
